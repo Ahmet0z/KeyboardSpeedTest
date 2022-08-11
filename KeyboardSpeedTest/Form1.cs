@@ -38,7 +38,7 @@ namespace KeyboardSpeedTest
             startSecond = DateTime.Now.Second;
             endMinute = startMinute + 1;
             endSecond = startSecond;
-            generatedNumber = rnd.Next(0, 200);
+            generatedNumber = rnd.Next(0, 199);
             wordArea.Text = words[generatedNumber];
             falseWord = 0;
             trueWord = 0;
